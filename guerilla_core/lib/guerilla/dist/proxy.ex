@@ -2,7 +2,7 @@ defmodule Guerilla.Dist.Proxy do
   @moduledoc false
   
   alias Guerilla.Dist.Helper
-  alias Guerilla.Gateway.Allocator
+  alias Guerilla.Gateway.Client.Allocator
   require Logger
 
   @distribution_protocol 5

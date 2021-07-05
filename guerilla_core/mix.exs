@@ -23,6 +23,7 @@ defmodule Guerilla.MixProject do
   defp deps do
     [
       {:gun, "~> 1.3"},
+      {:ranch, "~> 2.0"},
     ]
   end
 end
